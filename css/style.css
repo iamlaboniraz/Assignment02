@@ -2,6 +2,9 @@ body{
     font-family: 'Fraunces', serif;
     font-family: 'Roboto', sans-serif;
 }
+h1{
+    color: rgb(39, 39, 114);
+}
 .panda-card{
     border: 0;
 }
@@ -47,15 +50,16 @@ body{
 }
 .carousel-text-left button, .causal-shoe-body button, .formal-shoe-body button{
     color: white; 
+    background-color: rgb(59, 59, 165);
     border: 0; 
-    width: 170px;
+    width: 120px;
     height: 60px;
     border-radius: 15px;
 }
 .service-categories{
     border: 0; 
     border-radius: 2em; 
-    box-shadow:  10px 10px 40px rgb(147, 226, 216); 
+    box-shadow:  10px 10px 40px rgb(114, 231, 216); 
     margin: 2%;
 }
 .service-categories img{
