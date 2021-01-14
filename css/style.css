@@ -72,9 +72,11 @@ h1{
     padding-left:25%;
 }
 
+.casual-shoes,.formal-shoes, .service-categories{
+    margin-bottom: 1em;
+}
 
-
-.footer-part:hover .sign-up,#about:hover .about-title{
+.footer-part:hover .sign-up,#about:hover .about-title,.carousel-text-left:hover button{
     transform: scale(1.2);
     transition: transform 2s;
 }
