@@ -30,6 +30,7 @@ body{
     border-radius: 7px;
 }
 
+
 .casual-shoes img, .formal-shoes img{
     display: block;
     margin-top: 6%;
@@ -54,7 +55,7 @@ body{
 .service-categories{
     border: 0; 
     border-radius: 2em; 
-    box-shadow:  10px 10px 40px rgb(253, 239, 239); 
+    box-shadow:  10px 10px 40px rgb(147, 226, 216); 
     margin: 2%;
 }
 .service-categories img{
@@ -66,6 +67,11 @@ body{
 .service-body{
     padding-left:25%;
 }
+
+/* .services{
+    height: 500px;
+    background-color: tomato;
+} */
 
 
 
