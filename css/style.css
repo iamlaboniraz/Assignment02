@@ -1,0 +1,14 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.panda-card{
+    border: 0;
+}
+.panda-card-footer{
+    border: 0;
+    background-color: white;
+}
+.service-categories{
+    border: 0;
+    border-radius: 2em;
+}
