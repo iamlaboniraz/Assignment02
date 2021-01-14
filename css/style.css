@@ -72,11 +72,17 @@ h1{
     padding-left:25%;
 }
 
-/* .services{
-    height: 500px;
-    background-color: tomato;
-} */
 
+
+.footer-part:hover .sign-up,#about:hover .about-title{
+    transform: scale(1.2);
+    transition: transform 2s;
+}
+
+.service:hover #service-picture{
+    transform: rotate(360deg);
+    transition: transform 2s;
+}
 
 
 
