@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
 </head>
 <body>
+  <section style="background-color: rgb(243, 239, 231);" >
+    <!-- header section -->
     <header class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="col-md-5">
@@ -32,20 +36,20 @@
             </ul>
 
             <span class="navbar-text">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#carouselExampleCaptions">Home</a>
             </span>
             <span class="navbar-text">
-                <a class="nav-link" href="#">Product</a>
+                <a class="nav-link" href="#shoes">Product</a>
         </span>
             <span class="navbar-text">
-                <a class="nav-link" href="#">About us</a>
+                <a class="nav-link" href="#carouselExampleSlidesOnly">About us</a>
             </span>
             <span class="navbar-text">
                 <a class="nav-link" href="#">Contact us</a>
             </span>
             </div>
       </nav>
-
+<!-- carousel part -->
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
        
         <div class="panda-slide carousel-inner mt-5">
@@ -54,105 +58,113 @@
               <div class="col-md-5">
                 <img src="images/Photos/Group 33092.png" class="d-block w-100" alt="...">
             </div>
-                <div class="col-md-7">
-                  <h2 class="card-title">Nike React</h2>
-                  <h2>Infinity Run 2</h2>
+                <div class="carousel-text-left col-md-7">
+                  <div style="float: right;">
+                    <h2 style="color: orange;" class="card-title"><strong>NIKE REACT</strong> </h2>
+                  <h2 style="color: rgb(22, 22, 97);"><strong>INFINITY RUN 2</strong> </h2>
                   <p class="card-text">Lorem Ipsum is simply dummy text of the
                     printing and typesetting industry.</p>
-                  <button style="width: 170px;height: 60px;border-radius: 7px;" class="btn btn-primary">Buy Now</button>
+                  <button class="p-3 mb-2 bg-primary text-white"> <i class="fas fa-cart-plus"></i> Buy Now</button>
+                  </div>
                 </div>       
             </div>     
           </div>      
         </div>
       </div>
     </header>
+  </section>
+
+  <!-- main section -->
     <main class="container">
-
+<!-- this is casual shoes section -->
         <section id="shoes" class="container mt-5">
-            <h1>CASUAL SHOES</h1>
+            <h1><strong>CASUAL SHOES</strong> </h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                  <div class="card h-100 shadow">
+                <div class="casual-shoes col">
+                  <div class="casual-single-shoes card h-100 shadow">
                     <img src="images/Photos/image 5.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Red Laltu Bag</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="panda-card-footer card-footer">
-                      <button class="btn btn-warning">Buy Now >></button>
+                    <div class="causal-shoe-body card-body">
+                      <h5 class="card-title"><strong> Nike Shoe</strong> </h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <h1 class="card-text">$234 </h1>
+                      <button class="p-3 mb-2 bg-primary text-white"> <i class="fas fa-cart-plus"></i> Buy Now</button>
                     </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card h-100 shadow">
+                <div class="casual-shoes col">
+                  <div class="casual-single-shoes card h-100 shadow">
                     <img src="images/Photos/pngegg 1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                    <div class="panda-card-footer card-footer">
-                        <button class="btn btn-warning">Buy Now >></button>
+                    <div class="causal-shoe-body card-body">
+                      <br>
+                      <h5 class="card-title"><strong>Card titleSneakers Skate Shoe</strong></h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                      <h1 class="card-text">$234 </h1>
+                      <button class="p-3 mb-2 bg-primary text-white"> <i class="fas fa-cart-plus"></i> Buy Now</button>
                     </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card h-100 shadow">
+
+                <div class="casual-shoes col">
+                  <div class="casual-single-shoes card h-100 shadow">
                     <img src="images/Photos/Daco_1703273 1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    </div>
-                    <div class="panda-card-footer card-footer">
-                        <button class="btn btn-warning">Buy Now >></button>
+                    <div class="causal-shoe-body card-body">
+                      <h5 class="card-title"><strong>Sneakers Basketball shoe</strong> </h5>
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                      <h1 class="card-text">$234 </h1>
+                      <button class="p-3 mb-2 bg-primary text-white"> <i class="fas fa-cart-plus"></i> Buy Now</button>
                     </div>
                   </div>
                 </div>
               </div>
         </section>
 
+<!-- This is for formal shoes section -->
         <section id="backpack" class="container mt-5">
-            <h1>Formal shoes</h1>
+            <h1><strong>Formal shoes</strong></h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                  <div class="panda-card card h-100 shadow">
+                <div class="formal-shoes col">
+                  <div class="formal-single-shoe card h-100 shadow">
                     <img src="images/Photos/Mask Group.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Red Laltu Bag</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="formal-shoe-body card-body">
+                      <h2 class="card-title">Slip-On Formal Shoe</h2>
+                      <p class="card-text">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                        <h1 class="card-text">$234 </h1>
+                        <button class="p-3 mb-2 bg-primary text-white"> <i class="fas fa-cart-plus"></i> Buy Now</button>
+                     
                     </div>
-                    <div class="panda-card-footer card-footer">
-                      <button class="btn btn-warning">Buy Now >></button>
-                    </div>
+                   
                   </div>
                 </div>
-                <div class="col">
-                  <div class="panda-card card h-100 shadow">
+                <div class="formal-shoes col">
+                  <div class="formal-single-shoe card h-100 shadow">
                     <img src="images/Photos/Rectangle 38.png" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="formal-shoe-body card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <h1 class="card-text">$234 </h1>
+                      <button class="p-3 mb-2 bg-primary text-white"> <i class="fas fa-cart-plus"></i> Buy Now</button>
                     </div>
-                    <div class="panda-card-footer card-footer">
-                        <button class="btn btn-warning">Buy Now >></button>
-                    </div>
+                   
                   </div>
                 </div>
-                <div class="col">
-                  <div class="panda-card card h-100 shadow">
+                <div class="formal-shoes col">
+                  <div class="formal-single-shoe card h-100 shadow">
                     <img src="images/Photos/Rectangle 39.png" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="formal-shoe-body card-body">
                       <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      <p class="card-text">This is a wider card with supporting text below as 
+                        a natural lead-in to additional content. </p>
+                      <h1 class="card-text">$234 </h1>
+                      <button class="p-3 mb-2 bg-primary text-white"> <i class="fas fa-cart-plus"></i> Buy Now</button>
                     </div>
-                    <div class="panda-card-footer card-footer">
-                        <button class="btn btn-warning">Buy Now >></button>
-                    </div>
+                   
                   </div>
                 </div>
               </div>
         </section>
 
-         <!-- service section -->
+         <!-- This is for service section -->
          <section class="container mt-5">
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
               <div class="container" class="carousel-inner">
@@ -160,45 +172,52 @@
                   <div class="row">
                       <div class="col-md-7">
                           <br>
-                          <div style="border: 0; border-radius: 2em; box-shadow:  10px 10px 40px rgb(253, 239, 239); margin: 2%;" class="service-categories card">
+                          <div class="service-categories card">
                             <div class="card-body">
-                              <img style="height: 20%;width: 20%; float: left;" src="images/Logo-Icon/image 12.png" alt="">
-                              <h1>Find the Perfect Fit</h1>
+                              <img src="images/Logo-Icon/image 12.png" alt="">
+                              <div class="service-body">
+                                <h2>Find the Perfect Fit</h2>
                               <p>Everybody is different, which is why we
                                 offer styles for every body.</p>
+                              </div>
                             </div>
                           </div>
-                        <div style="border: 0; border-radius: 2em; box-shadow:  10px 10px 40px rgb(253, 239, 239); margin: 2%;" class="service-categories card">
+                        <div class="service-categories card">
                           <div class="card-body">
-                            <img style="height: 20%;width: 20%; float: left;" src="images/Logo-Icon/image 13.png" alt="">
-                            <h1>Free Exchanges</h1>
-                            <p>One of the many reasons you can shop
-                              with peace of mind.</p>
+                            <img src="images/Logo-Icon/image 13.png" alt="">
+                            <div class="service-body">
+                              <h2>Free Exchanges</h2>
+                              <p>One of the many reasons you can shop
+                                with peace of mind.</p>
+                            </div>
+                           
                           </div>
                         </div>
-                        <div style="border: 0; border-radius: 2em; box-shadow:  10px 10px 40px rgb(253, 239, 239); margin: 2%;" class="service-categories card">
+                        <div class="service-categories card">
                           <div class="card-body">
-                            <img style="height: 20%;width: 20%; float: left;" src="images/Logo-Icon/image 14.png" alt="">
-                            <h1>Contact Our Seller</h1>
+                            <img src="images/Logo-Icon/image 14.png" alt="">
+                            <div class="service-body">
+                              <h2>Contact Our Seller</h2>
                             <p>They are here to help you. That's quite
                               literally what we pay them for.</p>
+                            </div>
+                            
                           </div>
                       </div>
                       </div>
 
                       <div id="service-picture" class="col-md-5">
-                          <img class="d-block w-100" src="images/Logo-Icon/XMLID 1.png" alt="First slide">
+                          <img style="height: 380px; width: 400px;" class="d-block w-100" src="images/Logo-Icon/XMLID 1.png" alt="First slide">
                       </div>
                   </div>
                 </div>
               </div>
             </div>
         </section>
-
     </main>
-    <!-- <footer class="text-center mt-5">
-        <small>@2021. Panda Ecommerce </small>
-    </footer> -->
+
+
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
